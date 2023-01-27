@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  user-select: none;
+  margin: 0 auto;
+}
+
+.App-header {
+  background-color: #282c34;
+  width: 60%;
+  display: grid;
+    grid-template-columns: 50% 50%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.info h1 {
+    font-size: calc(10px + 2vmin);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.infoCard {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.info h2 {
+    font-size: calc(10px + 2vmin);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #202c34;
+}
+
+.infoCard p {
+    font-size: calc(10px + 2vmin);
+    color: white;
+    text-align: center;
+}
+
+.infoCard span {
+    color: white;
+    font-size: calc(10px + 2vmin);
+    text-align: center;
+    justify-content: center;
+}
